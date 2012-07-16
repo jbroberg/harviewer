@@ -76,7 +76,7 @@ window.harInitialize = function()
         iframe.setAttribute("frameborder", "0");
         iframe.setAttribute("width", width ? width : "100%");
         iframe.setAttribute("height", height ? height : "150px");
-        iframe.setAttribute("src", baseUrl + "preview.php" + args);
+        iframe.setAttribute("src", baseUrl + "preview.jsp" + args);
         element.appendChild(iframe);
 
         removeHarClass(element);
