@@ -3,6 +3,7 @@ HAR Viewer
 
 * Author: Jan Odvarko, odvarko@gmail.com,
 * http://www.softwareishard.com/
+* Author (Java & JSP/JSTL port): James Broberg, jbroberg@gmail.com 
 * Home page: http://www.janodvarko.cz/har/viewer
 * Issue list: http://code.google.com/p/harviewer/issues/list
 * Project home: http://code.google.com/p/harviewer/

@@ -101,13 +101,13 @@
 
         <!-- Generate version number. The version info is loaded from 'ant.properties' file. -->
         <replace dir="${build.dir}" propertyFile="ant.properties">
-            <include name="*.php" />
+            <include name="*.jsp" />
             <replacefilter token="@VERSION@" property="VERSION"/>
             <replacefilter token="@GOOGLE-ANALYTICS-PROFILE@" property="GOOGLE-ANALYTICS-PROFILE"/>
         </replace>
 
         <!-- Final version message -->
-        <echo message="HAR Viewer version: ${VERSION} build OK"/>
+        <echo message="HAR Viewer version: ${VERSION}-JSP build OK"/>
     </target>
 
     <!-- Support for generating docs from Firebug source code using js-doc-toolkit
